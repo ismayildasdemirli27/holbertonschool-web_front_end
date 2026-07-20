@@ -742,6 +742,7 @@ ul.row {
 
 .card-work:hover .card-image {
     transform: scale(1.2);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
@@ -755,10 +756,6 @@ ul.row {
 .button:hover {
     transition-duration: var(--transition-duration);
     transition-property: color, background-color;
-}
-
-.card-work .card-image {
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
